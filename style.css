@@ -1,0 +1,93 @@
+.toptitle{
+font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 55px;
+  text-align: center;
+  margin-right:20px;
+  text-transform: uppercase;
+  margin-top:30px;
+  color: #131313;
+  letter-spacing: .08em;
+  text-shadow:5px 5px 10px black;
+}
+
+#mymodal{
+  margin-top:50px;
+}
+#draw{
+  margin-top:150px;
+}
+ .modal{
+  margin-top:150px;
+}
+
+.options{
+  text-align:center;
+  padding:10px;
+  }
+#x-btn{
+  margin-right:30px;
+  padding: 20px 30px;
+  font-size: 30px;
+  border-radius: 10px;
+}
+#o-btn{
+  padding: 20px 30px;
+  font-size: 30px;
+  border-radius: 10px;
+}
+.board{
+	width: 350px;
+	height: 350px;
+	margin-top:30px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.col-xs-4 {
+	background-color: #EBEBF0;
+	height: 120px;
+	width: 120px;
+	border: solid 1px royalblue;
+	box-shadow: 5px 6px 6px 2px grey,2px 1px 1px 1px grey inset;
+	text-align: center;
+	line-height: 127px;
+	font-size: 100px;
+	text-transform: uppercase;
+}
+
+.col-xs-4:hover {
+	cursor: pointer;
+}
+
+.details{
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top:30px;
+  margin-bottom:20px;
+  color: #131313;
+  letter-spacing: .08em;
+  text-shadow:2px 2px 5px black;
+}
+
+b{
+  text-shadow:3px 3px 5px grey;
+}
+
+a:link{
+  text-decoration:none;
+  color:royalblue;
+}
+a:hover{
+  text-decoration:none;
+  color:royalblue;
+}
+a:visited{
+  text-decoration:none;
+  color:royalblue;
+}
+
+hr{
+  height:2px;
+  background-color:purple;
+}

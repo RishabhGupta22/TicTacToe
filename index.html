@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="container container-fluid">
+<div class="top text-center">
+  <h2 class="toptitle">Tic Tac Toe</h2>
+  </div>
+  <br>
+ 
+  <div id="mymodal" class="modal container fade">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<h2 class="text-center">How do you wish to play ?</h2>
+        <br>
+					<div class="options">
+						<button id="x-btn" type="button" class="btn btn-lg btn-primary">X</button>
+						<button id="o-btn" type="button" class="btn btn-lg btn-warning">O</button>
+            </div>
+					</div>
+				</div>
+			</div>
+
+	<div class="board">
+    <div class="row">
+			<div id="1" class="col-xs-4"><p></p>
+			</div>
+			<div id="2" class="col-xs-4"><p></p>
+			</div>
+			<div id="3" class="col-xs-4"><p></p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div id="4" class="col-xs-4"><p></p>
+			</div>
+			<div id="5" class="col-xs-4"><p></p>
+			</div>
+			<div id="6" class="col-xs-4"><p></p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div id="7" class="col-xs-4"><p></p>
+			</div>
+			<div id="8" class="col-xs-4"><p></p>
+			</div>
+			<div id="9" class="col-xs-4"><p></p>
+			</div>
+		</div>
+
+  </div>
+  <div id="loser" class="modal fade" data-backdrop="false" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body">
+					<h2 class="text-center">You Lost !!</h2>
+					<div class="modal-footer">
+						<button id="again" class="btn btn-primary center-block" type="button" class="btn btn-default" data-dismiss="modal">Play again</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+  
+  <div id="draw" class="modal fade" data-backdrop="false" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body">
+					<h2 class="text-center">It's a Draw !!<h2>
+					<div class="modal-footer">
+						<button id="again" class="btn btn-primary center-block" type="button" class="btn btn-default" data-dismiss="modal">Play again</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+      
+       <div id="won" class="modal fade" data-backdrop="false" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body">
+					<h2 class="text-center">You Won!!<h2>
+            
+            <h2 class="text-center">Well Played!!<h2>
+					<div class="modal-footer">
+						<button id="again" class="btn btn-primary center-block" type="button" class="btn btn-default" data-dismiss="modal">Play again</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+          
+ <div class="bottom">
+   <br>
+  <hr>
+  <div class=" details text-center">Designed & Coded by <b><a href="https://codepen.io/rishabhgupta/" target="_blank">Rishabh Gupta</a></b></div>
+</div>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
