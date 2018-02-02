@@ -1,6 +1,6 @@
 body{
-  background:url("https://img00.deviantart.net/cdeb/i/2011/091/4/7/endless_tic_tac_toe_wallpaper_by_wuflux_biscuits-d3d07m5.jpg");
-  background-size:cover;
+  background:url("https://img00.deviantart.net/cdeb/i/2011/091/4/7/endless_tic_tac_toe_wallpaper_by_wuflux_biscuits-d3d07m5.jpg") no-repeat center center fixed;
+  background-size: cover;
 }
 
 .toptitle{
